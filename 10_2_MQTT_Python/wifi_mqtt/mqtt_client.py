@@ -29,7 +29,7 @@ def on_connect(self, mosq, obj, rc):
 
 def on_message(mosq, obj, msg):
 
-      print("[Received] Topic: " + msg.topic + ", Message: " + str(msg.payload) + "\n");
+      print("[Received] Topic: " + msg.topic + ", Message: " + str(msg.payload) + "\n")
 
 
 def on_subscribe(mosq, obj, mid, granted_qos):
